@@ -1,4 +1,5 @@
 module.exports = {
+  sshAgent: false, //是否使用SSH-Agent,使用SSH-Agent时,privateKey不必设置
   privateKey: '', // 本地私钥地址，位置一般在C:/Users/xxx/.ssh/id_rsa，非必填，有私钥则配置
   passphrase: '', // 本地私钥密码，非必填，有私钥则配置
   projectName: '', // 项目名称
